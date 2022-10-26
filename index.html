@@ -1,12 +1,539 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  Hello World, Adding the HTML based Portfolio here.
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prashant Anand</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <header id="body-header">
+      <nav>
+        <div class="dropdown-menu text-right">
+          <div class="bars">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="dropdown-list nav-menu">
+            <ul class="no-list-style">
+              <li>
+                <a href="#"> Home </a>
+              </li>
+              <li>
+                <a href="#about"> About </a>
+              </li>
+              <li>
+                <a href="#skills"> Skills </a>
+              </li>
+              <li>
+                <a href="#experience">Experience</a>
+              </li>
+              <li>
+                <a href="#education">Education</a>
+              </li>
+              <li>
+                <a href="#projects">projects</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>              
+              <li><a class="github" href="https://github.com/annax3" target="blank">Github <i class="fab fa-github"></i></a></li>
+              <li>
+                <a href="https://drive.google.com/file/d/1o5iL5OL7Bai-8Mlj2y62agja2R34wMfd/view">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <ul class="no-list-style horizontal-list text-center nav-menu"  data-aos="fade-up"  
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+          <li>
+            <a href="#"> Home </a>
+          </li>
+          <li>
+            <a href="#about"> About </a>
+          </li>
+          <li>
+            <a href="#skills"> Skills </a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li> 
+          <li><a class="github" href="https://github.com/annax3" target="blank">Github <i class="fab fa-github"></i></a></li>
+          <li>
+            <a href="https://drive.google.com/file/d/1o5iL5OL7Bai-8Mlj2y62agja2R34wMfd/view">Resume</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="name-social-container">
+        <div class="text-center"  data-aos="fade-up"  
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+          <h1 id="my-name">Prashant Anand</h1>
+        </div>
+        <div>
+          <ul class="no-list-style horizontal-list text-center social-icons"  data-aos="fade-up"  
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+            <li>
+                <a href="https://www.linkedin.com/in/prashantiet/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://leetcode.com/annax3/"
+                target="_blank"
+              >
+              <img class="LeetCode"
+              src="./assests/leetcode.svg" alt="">
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://auth.geeksforgeeks.org/user/annax3/"
+                target="_blank"
+              >
+              <img class="LeetCode" class="gfg"
+              src="./assests/geeksforgeeks.svg" alt="">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/Prashantiet">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.quora.com/profile/Prashant-Anand-41"
+                target="_blank"
+              >
+                <i class="fab fa-quora"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="about">
+        <div id="my-image"  data-aos="fade-up"  
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+          <img src="./assests/Myphoto.jpg" />
+        </div>
+
+        <div id="about-para"  data-aos="fade-up"  
+        data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <p>
+            I Done My BTech in Information Technology From I.E.T Lucknow Currently I am Pursuing Course in Java BackEnd Development From Masai. This is my portfolio that includes everything about me and my projects. I have learnt <span class="text-highlight">
+              JAVA BackEnd
+            </span> using the Intellij and Spring Tool Set (STS).
+            I have proficiency in <span class="text-highlight">HTML ,CSS, Javascript, Java, Spring, Spring-Boot, Hibernate, SQL</span>  and <span class="text-highlight">Data Strutures in JAVA ,Javascript, c++, C </span>. Passionate about designing new projects . Recently I made many projects like <span class="text-highlight">TATA 1Mg Website , Uborics Website</span>  etc and the links of all the projects are given in the project section . In case any query feel free to contact me my details are in the contact section.
+             
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h1 class="section-heading mb75px" data-aos="fade-up"  
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+          <span >
+            <i class="fas fa-chalkboard-teacher"></i>
+          </span>
+          <span> SKILLS </span>
+        </h1>
+
+        <div class="skills-display">
+          <div class="skill-progress" data-aos="fade-up"
+          data-delay="200"  
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+            <div class="fifty-percent mb-blue">
+              <div class="skill-name">
+                <span> C++ </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress" data-aos="fade-up"
+          data-delay="200"  
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+            <div class="eighty-five-percent mb-orange">
+              <div class="skill-name">
+                <span> HTML </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress" data-aos="fade-up"
+          data-delay="200"  
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+            <div class="eighty-percent mb-light-purple">
+              <div class="skill-name">
+                <span> CSS </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress" data-aos="fade-up"
+          data-delay="200"  
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+            <div class="fifty-percent mb-teal">
+              <div class="skill-name">
+                <span> Javascript </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress" data-aos="fade-up"
+          data-delay="200"  
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+            <div class="fifty-percent mb-blue">
+              <div class="skill-name">
+                <span> JAVA </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress" data-aos="fade-up"
+          data-delay="200"  
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+            <div class="eighty-percent mb-light-purple">
+              <div class="skill-name">
+                <span> SPRING</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress" data-aos="fade-up"
+          data-delay="200"  
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+            <div class="eighty-percent mb-orange">
+              <div class="skill-name">
+                <span> Hibernate</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress" data-aos="fade-up"
+          data-delay="200"  
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+            <div class="eighty-percent mb-blue">
+              <div class="skill-name">
+                <span> C </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress" data-aos="fade-up"
+          data-delay="200"  
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+            <div class="eighty-percent mb-light-purple">
+              <div class="skill-name">
+                <span> Data Stuctures </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h1 class="section-heading mb75px"  data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+          <span>
+            <i class="fas fa-briefcase"></i>
+          </span>
+          <span> Work Experience </span>
+        </h1>
+
+        <div class="timeline"  data-aos="fade-up"
+        data-delay="200"  
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out">
+          <div class="timeline-box">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C510BAQFzUQEdq6-L_Q/company-logo_200_200/0?e=2159024400&v=beta&t=VkasGI_C76Zbkh5wApgDAXUib8eCsw7zsaw6EuYiPEQ"
+                />
+              </div>
+              <h3 class="experience-designation m0 m-blue">
+                Front-End Developer
+              </h3>
+              <h4 class="experience-company-name">Synclusive Enovation Pvt. Ltd.</h4>
+              <h5 class="experience-duration m0">September 2020 - June 2021</h5>
+
+              <p class="experience-description text-justify">
+                I done Some Updates on Website and ADD Some Features For user interaction Using Html Css Javascript.
+              </p>
+            </div>
+          </div>
+
+          <div id="timeline-divider">
+            <div class="timeline-traveller">
+              <div>
+                <i class="fas fa-plane"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <h1 class="section-heading mb75px"  data-aos="fade-up" 
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+          <span>
+            <i class="fas fa-graduation-cap"></i>
+          </span>
+          <span> Education </span>
+        </h1>
+
+        <div class="timeline"  data-aos="fade-up"
+        data-delay="200"  
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out">
+          <div class="timeline-box left">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img
+                  src="https://img.collegepravesh.com/2016/05/IET-Lucknow-Logo.jpg"
+                />
+              </div>
+              <h3 class="experience-designation m0 m-blue">B.Tech in IT</h3>
+              <h4 class="experience-company-name">
+                IET , Lucknow
+              </h4>
+              <h5 class="experience-duration m0">August 2017 - August 2020</h5>
+
+              <p class="experience-description text-justify">
+                I Done My Graduation In Information Technology. ABDUL Kalam Technical University
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-box right">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img
+                  src="https://4.bp.blogspot.com/-cKfxHZBZKNo/WIQaN1S0CwI/AAAAAAAAFAc/8CVg_TVmG6ES8uVepCpzzYmwKyxvmyR7gCLcB/s1600/kvs-logo-with-bg.png"
+                />
+              </div>
+              <h3 class="experience-designation m0 m-blue">Basic Education</h3>
+              <h4 class="experience-company-name">
+                Kendriya Vidyalaya Sanagathan , Ghaziabad
+              </h4>
+              <h5 class="experience-duration m0">April 2005 - April 2019</h5>
+              <p class="experience-description text-justify">
+                I completed my basic education and 11th 12th from KVS
+                School in Ghaziabad.
+              </p>
+            </div>
+          </div>
+
+          <div id="timeline-divider">
+            <div class="timeline-traveller">
+              <div>
+                <i class="fas fa-car-side"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h1 class="section-heading mb75px"  data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+          <span>
+            <i class="fas fa-th-list"></i>
+          </span>
+          <span> Projects </span>
+        </h1>
+
+        <div id="projects-container">
+          <a href="https://uborik-com-8bad69.netlify.app/landingpage.html" target="blank">
+            <div class="projects-image-container" data-aos="fade-up"
+            data-delay="200"  
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out">
+              <img
+                src="./assests/Uborik.jpeg"
+              />
+              <div class="projects-details">
+                <p>
+                    <h1>Uborik - Clone</h1>
+                  Its a full designed Uborik Website Clone  made with front end
+                  technologies like html, css and javascript.This was my Construct week
+                  project assigned by Masai.
+                </p>
+                <button class="github" onclick="document.location='https://github.com/suFi7867/safe-table-3122'">Github <i class="fab fa-github"></i></button>
+              </div>
+            </div>
+          </a>
+          
+        
+         <a href="https://prismatic-dango-eea36f.netlify.app/" target="blank" data-aos="fade-up"
+         data-delay="200"  
+         data-aos-duration="1500"
+         data-aos-easing="ease-in-out">
+            <div class="projects-image-container">
+                <img
+                  src="./assests/calc.jpeg"
+                />
+                <div class="projects-details">
+                  <p><h1>Calculator App </h1>
+                This is my simple project made with frontend technologies like html css and javascript. </p>
+                <button class="github" onclick="document.location='https://github.com/annax3/MyCalc.git' ">Github <i class="fab fa-github"></i></button>
+                </div>
+              </div>
+         </a>
+          <a href="https://tata1mg-clone.netlify.app/" target="blank"  data-aos="fade-up"
+          data-delay="200"  
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+            <div class="projects-image-container">
+                <img
+                  src="./assests/TATA.jpeg"
+                />
+                <div class="projects-details">
+                  <p><h1>TATA 1Mg - Clone</h1> Its a full designed TATA 1Mg Website Clone  made with front end
+                    technologies like html, css and javascript.This was my Construct week
+                    project assigned by Masai.</p>
+                  <button class="github" onclick="document.location='https://github.com/PankajkandpalL/Project1MG-TATA'">Github <i class="fab fa-github"></i></button>
+                </div>
+              </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h1 class="section-heading mb50px" >
+          <span>
+            <i class="far fa-address-card"></i>
+          </span>
+          <span> Contact </span>
+        </h1>
+        <div id="contact-container">
+          <div id="contact-form-container">
+            <form id="contact-form">
+              <input
+                id="input-name"
+                name="name"
+                type="text"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                id="input-email"
+                name="input-email"
+                type="text"
+                required
+                placeholder="Your Email"
+              />
+              <textarea
+                id="input-message"
+                name="input-message"
+                rows="2"
+                cols="40"
+                placeholder="Message"
+              
+              ></textarea>
+              <button class="sub-btn" type="submit">SEND MESSAGE</button>
+            </form>
+          </div>
+          <div id="my-details-container">
+            <h3>Get In touch</h3>
+            <p>
+              You can contact me with the details given below:
+            </p>
+
+            <h3>My Address</h3>
+            <div class="my-details-info-container">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Vijay Nagar Ghaziabad,U.P</span>
+            </div>
+            <div class="my-details-info-container">
+              <i class="fas fa-mobile-alt"></i>
+              <span>9810610020</span>
+            </div>
+            <div class="my-details-info-container">
+              <i class="far fa-envelope"></i>
+              <span>imanand51294@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center social-icons">
+          <ul class="no-list-style horizontal-list">
+            
+
+            <li>
+              <a
+                href="https://www.instagram.com/imanandx3/"
+                target="_blank"
+              >
+              
+              <img class="LeetCode"
+              src="./assests/instagram-svgrepo-com.svg" alt="">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/Prashantiet">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://twitter.com/dreamer_fsd"
+                target="_blank"
+              >
+             
+              <img class="LeetCode"
+              src="./assests/twitter.svg" alt="">
+              </a>
+            
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+    <script>
+        AOS.init({
+          once: true,
+        });
+    </script>
+  </body>
 </html>
